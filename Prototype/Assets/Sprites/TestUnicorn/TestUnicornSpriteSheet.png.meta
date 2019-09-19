@@ -1,0 +1,967 @@
+fileFormatVersion: 2
+guid: ae2b16884d5f1fd44add148f43625bc1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5104205324253428716
+    second: TestUnicornIdle1
+  - first:
+      213: 4055020643983840625
+    second: TestUnicornIdle2
+  - first:
+      213: 3614487848446816019
+    second: TestUnicornIdle3
+  - first:
+      213: -3596122453007404841
+    second: TestUnicornIdle4
+  - first:
+      213: -2705017522877525475
+    second: TestUnicornRun1
+  - first:
+      213: 7665094948745111314
+    second: TestUnicornRun2
+  - first:
+      213: 4653510992239104624
+    second: TestUnicornRun3
+  - first:
+      213: -861349301047010242
+    second: TestUnicornRun4
+  - first:
+      213: -6600418653784185131
+    second: TestUnicornRun5
+  - first:
+      213: 8058779816063770228
+    second: TestUnicornRun6
+  - first:
+      213: -4298744263461633074
+    second: TestUnicornCharge1
+  - first:
+      213: 9193325012847748468
+    second: TestUnicornCharge2
+  - first:
+      213: 9012306110288985112
+    second: TestUnicornCharge3
+  - first:
+      213: 3523777201366466301
+    second: TestUnicornDazed1
+  - first:
+      213: 4579865772604447778
+    second: TestUnicornSpriteSheet_14
+  - first:
+      213: -2574410517810026075
+    second: TestUnicornSpriteSheet_15
+  - first:
+      213: 2460691656980203687
+    second: TestUnicornDazed3
+  - first:
+      213: -2926343910412709312
+    second: TestUnicornSpriteSheet_17
+  - first:
+      213: -9092004595019921947
+    second: TestUnicornDazed2
+  - first:
+      213: -7667516662347943080
+    second: TestUnicornJump1
+  - first:
+      213: 106529590302417015
+    second: TestUnicornJump2
+  - first:
+      213: -4399150648127966382
+    second: TestUnicornJump3
+  - first:
+      213: 716943603305651945
+    second: TestUnicornJump4
+  - first:
+      213: 764537571657204323
+    second: TestUnicornJump5
+  - first:
+      213: 3368155488649581630
+    second: TestUnicornJump6
+  - first:
+      213: -4707524842545923584
+    second: TestUnicornJump7
+  - first:
+      213: -1093077891499246276
+    second: TestUnicornDamaged1
+  - first:
+      213: 4801902355643356023
+    second: TestUnicornDamaged2
+  - first:
+      213: 663396488582487388
+    second: TestUnicornDamaged3
+  - first:
+      213: 5977179302210126296
+    second: TestUnicornDeath1
+  - first:
+      213: 8430458547561176725
+    second: TestUnicornDeath2
+  - first:
+      213: 6218682007298287706
+    second: TestUnicornDeath3
+  - first:
+      213: -1122410779984226705
+    second: TestUnicornDeath4
+  - first:
+      213: -123628217084973808
+    second: TestUnicornDeath5
+  - first:
+      213: 3279440040911373683
+    second: TestUnicornDeath6
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TestUnicornIdle1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 409
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82feb4bef1b3d574798461290a344b4f
+      internalID: 5104205324253428716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornIdle2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 409
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cb9752b74ab924d972860830e11975
+      internalID: 4055020643983840625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornIdle3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 410
+        width: 79
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9eeeb92d040cf4bae26ec7fe660361
+      internalID: 3614487848446816019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornIdle4
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 409
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8641c11cc082824596bd20ba97ed566
+      internalID: -3596122453007404841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornRun1
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 414
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57905ce11b2912e45a5e6642101903c2
+      internalID: -2705017522877525475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornRun2
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 412
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b1d72237287d34e87e9cdc5179ff0a
+      internalID: 7665094948745111314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornRun3
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 410
+        width: 81
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8646ee14edc00b4599640924dde08e7
+      internalID: 4653510992239104624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornRun4
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 409
+        width: 83
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cfed74bd208a24ca36fd67f68eab6b
+      internalID: -861349301047010242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornRun5
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 412
+        width: 84
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6827a78d5e4a2a04ea1f534f2e9d7eed
+      internalID: -6600418653784185131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornRun6
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 416
+        width: 92
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2f6d9d4b24b4341bb11839601b26f2
+      internalID: 8058779816063770228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornCharge1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 294
+        width: 192
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c01fd37d8b465a4bb590a1f36f3c323
+      internalID: -4298744263461633074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornCharge2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 291
+        width: 202
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb348eb90fca0554cbc3bdfbfb8663fb
+      internalID: 9193325012847748468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornCharge3
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 292
+        width: 206
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65860468e9531b14ba375d6bdf6cb09e
+      internalID: 9012306110288985112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornDazed1
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 297
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a409c2ffe9d0f8f489a92e295e22f50e
+      internalID: 3523777201366466301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 379
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616b80da3253fcd4b962f4a89ef73592
+      internalID: 4579865772604447778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 381
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15e317e3653b334eb64ad90faf99044
+      internalID: -2574410517810026075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornDazed3
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 297
+        width: 84
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a462dd03504f341b9ffce4d31164bf
+      internalID: 2460691656980203687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 381
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2e1e86d097104478467a48124a9b56
+      internalID: -2926343910412709312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornDazed2
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 297
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bbd7b16f62751449c9983958c5ef8e
+      internalID: -9092004595019921947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornJump1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 129
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e55d16e0a3ace44a0a5a2aab45d563
+      internalID: -7667516662347943080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornJump2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 129
+        width: 80
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b968b34e352e1c48a03e99ff73c8708
+      internalID: 106529590302417015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornJump3
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 163
+        width: 83
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ff42c7ccf62ee4fbad3b48e963c9dd
+      internalID: -4399150648127966382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornJump4
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 199
+        width: 86
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30aecd2c75768d459a9b40614b2e439
+      internalID: 716943603305651945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornJump5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 193
+        width: 94
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad264e0b19b869d408c775bc6deb15f0
+      internalID: 764537571657204323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornJump6
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 162
+        width: 95
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f80ec354dd7804a971f757f11fcbbc
+      internalID: 3368155488649581630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornJump7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 127
+        width: 89
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6052f1e832cdfa48a3a24ddf6a2e03e
+      internalID: -4707524842545923584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornDamaged1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 5
+        width: 83
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4a64761161f5049a3ea5445a38b9e1
+      internalID: -1093077891499246276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornDamaged2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 5
+        width: 84
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705e3058e3b06194d8a7f1644191ba6e
+      internalID: 4801902355643356023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornDamaged3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 5
+        width: 83
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc769af04af48648b3c0fab942a47d5
+      internalID: 663396488582487388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornDeath1
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 5
+        width: 84
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711935e4a4b8b9744b1c7cbd0d0651fe
+      internalID: 5977179302210126296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornDeath2
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 9
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e9e31a59fbb124ab2a9d7fa88a4600
+      internalID: 8430458547561176725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornDeath3
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 8
+        width: 90
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9763be6ed5c9687498c77d089f128110
+      internalID: 6218682007298287706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornDeath4
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 7
+        width: 91
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799621ad356637b439ccb17e2f95ca7f
+      internalID: -1122410779984226705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornDeath5
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 7
+        width: 96
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e410b41b143384b9efa7d09d871412
+      internalID: -123628217084973808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestUnicornDeath6
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 10
+        width: 97
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e47d4ce5480af4086289afd74f5d43
+      internalID: 3279440040911373683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1b05912ea35a3bc42b4bd6aba8a3f877
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
