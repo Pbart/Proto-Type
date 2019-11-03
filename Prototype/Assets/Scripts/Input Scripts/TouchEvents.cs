@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class TouchEvents : MonoBehaviour
 {
@@ -73,48 +75,52 @@ public class TouchEvents : MonoBehaviour
             //OnTouchDrag?.Invoke(initialPlayerTouch);
             touchTimer += Time.deltaTime;
 
-            if (initialPlayerTouch.phase == TouchPhase.Began)
+            //check if we are touching a UI element and if we are dont do any input commands !!!MOVE INTO TOUCHPHASE.ENDED IF
+            if (IsTouchOverUIElement(initialPlayerTouch) == false)
             {
-                initialTouchPosition = initialPlayerTouch.position;
-            }
-            else if (initialPlayerTouch.phase == TouchPhase.Moved)
-            {
-                OnTouchDrag?.Invoke(initialPlayerTouch);
-            }
-            else if (initialPlayerTouch.phase == TouchPhase.Ended)
-            {
-                finalTouchPosition = initialPlayerTouch.position;
-                touchTimer = touchTimer;
+                if (initialPlayerTouch.phase == TouchPhase.Began)
+                {
+                    initialTouchPosition = initialPlayerTouch.position;
+                }
+                else if (initialPlayerTouch.phase == TouchPhase.Moved)
+                {
+                    OnTouchDrag?.Invoke(initialPlayerTouch);
+                }
+                else if (initialPlayerTouch.phase == TouchPhase.Ended)
+                {
+                    finalTouchPosition = initialPlayerTouch.position;
+                    touchTimer = touchTimer;
 
-                direction = DetectSwipeDirection(initialTouchPosition, finalTouchPosition);
-                if (direction == SwipeDirection.Left)
-                {
-                    OnSwipeLeft?.Invoke();
-                }
-                else if (direction == SwipeDirection.Right)
-                {
-                    OnSwipeRight?.Invoke();
-                }
-                else if (direction == SwipeDirection.Up)
-                {
-                    OnSwipeUp?.Invoke();
-                }
-                else if (direction == SwipeDirection.Down)
-                {
-                    OnSwipeDown?.Invoke();
-                }
-                else if (direction == SwipeDirection.None)
-                {
-                    if (touchTimer < tapTime)
+                    direction = DetectSwipeDirection(initialTouchPosition, finalTouchPosition);
+                    if (direction == SwipeDirection.Left)
                     {
-                        StartCoroutine("DoubleTap");
+                        OnSwipeLeft?.Invoke();
                     }
-                    else
-                    {                     
-                        OnSingleTouchHeld?.Invoke(initialPlayerTouch);                       
+                    else if (direction == SwipeDirection.Right)
+                    {
+                        OnSwipeRight?.Invoke();
                     }
+                    else if (direction == SwipeDirection.Up)
+                    {
+                        OnSwipeUp?.Invoke();
+                    }
+                    else if (direction == SwipeDirection.Down)
+                    {
+                        OnSwipeDown?.Invoke();
+                    }
+                    else if (direction == SwipeDirection.None)
+                    {
+                        if (touchTimer < tapTime)
+                        {
+                            StartCoroutine("DoubleTap");
+                        }
+                        else
+                        {
+                            OnSingleTouchHeld?.Invoke(initialPlayerTouch);
+                        }
+                    }
+                    touchTimer = 0f;
                 }
-                touchTimer = 0f;
             }
         }
     }
@@ -190,5 +196,15 @@ public class TouchEvents : MonoBehaviour
             StopCoroutine("DoubleTap");
             Debug.Log("THIS IS A DOUBLE TAP");
         }
+    }
+
+    private bool IsTouchOverUIElement(Touch t)
+    {
+        PointerEventData pointerDataCurrentPosition = new PointerEventData(EventSystem.current);
+        pointerDataCurrentPosition.position = new Vector2(t.position.x, t.position.y);
+
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(pointerDataCurrentPosition, results);
+        return results.Count > 0;
     }
 }

@@ -8,6 +8,10 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rb;
 
     public float jumpSpeed = 2.0f;
+    public float chargeSpeed = 2.0f;
+    public float slideSpeed = 2.0f;
+
+    public BoxCollider2D chargeTrigger;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +23,14 @@ public class PlayerMovement : MonoBehaviour
     {
         TouchEvents.OnSwipeUp += Jump;
         TouchEvents.OnSingleTouch += SpecialAction;
+        TouchEvents.OnSwipeDown += Slide;
+    }
+
+    private void OnDisable()
+    {
+        TouchEvents.OnSwipeUp -= Jump;
+        TouchEvents.OnSingleTouch -= SpecialAction;
+        TouchEvents.OnSwipeDown -= Slide;
     }
 
     // Update is called once per frame
@@ -31,6 +43,13 @@ public class PlayerMovement : MonoBehaviour
     private void SpecialAction(Touch t)
     {
         _anim.SetTrigger("Charge");
-        _rb.AddForce(new Vector3(2.0f, 0.0f, 0.0f) * jumpSpeed, ForceMode2D.Impulse);
+        chargeTrigger.enabled = true;
+        //_rb.AddForce(new Vector3(2.0f, 0.0f, 0.0f) * chargeSpeed, ForceMode2D.Impulse);
+    }
+
+    private void Slide()
+    {
+        _anim.SetTrigger("Slide");
+        //_rb.AddForce(new Vector3(2.0f, 0.0f, 0.0f) * slideSpeed, ForceMode2D.Impulse);
     }
 }
