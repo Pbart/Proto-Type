@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     {
         _anim = this.GetComponent<Animator>();
         _rb = this.GetComponent<Rigidbody2D>();
+        chargeTrigger.enabled = false;
     }
 
     private void OnEnable()
@@ -51,5 +52,10 @@ public class PlayerMovement : MonoBehaviour
     {
         _anim.SetTrigger("Slide");
         //_rb.AddForce(new Vector3(2.0f, 0.0f, 0.0f) * slideSpeed, ForceMode2D.Impulse);
+    }
+
+    public void TurnOffChargerTrigger()
+    {
+        chargeTrigger.enabled = false;
     }
 }
