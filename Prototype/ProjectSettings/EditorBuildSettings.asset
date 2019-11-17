@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Cutscene Demo.unity
     guid: 3906a61cd4a2adf44952df625ca3dffd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UIMobile.unity
     guid: 18462ce79d1e178468e2d783be83fed8
   m_configObjects: {}
