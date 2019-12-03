@@ -10,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
     public float jumpSpeed = 2.0f;
     public float chargeSpeed = 2.0f;
     public float slideSpeed = 2.0f;
+    public float movementSpeed = 0.3f;
+
+    public bool isRunning;
 
     public BoxCollider2D chargeTrigger;
     // Start is called before the first frame update
@@ -18,6 +21,14 @@ public class PlayerMovement : MonoBehaviour
         _anim = this.GetComponent<Animator>();
         _rb = this.GetComponent<Rigidbody2D>();
         chargeTrigger.enabled = false;
+    }
+
+    private void Update()
+    {
+        if (isRunning)
+        {
+            this.transform.position += new Vector3(movementSpeed, 0, 0);
+        }
     }
 
     private void OnEnable()
