@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Test Cube
   - UI
+  - Collectible
   layers:
   - Default
   - TransparentFX
@@ -42,4 +43,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Character
+    uniqueID: 2099490299
+    locked: 0
+  - name: Ground
+    uniqueID: 4109209043
     locked: 0

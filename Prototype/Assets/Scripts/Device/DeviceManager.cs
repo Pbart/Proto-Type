@@ -36,6 +36,7 @@ public class DeviceManager : MonoBehaviour
 
         deviceOutput.text = "Device OS: " + deviceType + "\n" + "OS Version: " + deviceVersion + "\n" + "Device Resolution: " + deviceScreenResolution + "\n" + "Battery Level: " + batteryLevel.ToString()
             + "\n" + "Screen Width: " + deviceScreenWidth.ToString() + "\n" + "Screen Height" + deviceScreenHeight + "\n" + "Device Aspect Ratio: " + deviceAspectRatio + "\n";
+
     }
 
     // Update is called once per frame

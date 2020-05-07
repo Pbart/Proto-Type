@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/UIMobile.unity
     guid: 18462ce79d1e178468e2d783be83fed8
+  - enabled: 1
+    path: Assets/Scenes/2D Runner.unity
+    guid: 035abe24551ff9e498de568044ccf24b
   m_configObjects: {}
