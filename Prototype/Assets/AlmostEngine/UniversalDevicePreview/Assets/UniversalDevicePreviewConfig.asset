@@ -659,10 +659,10 @@ MonoBehaviour:
     m_GameViewResizingWaitingMode: 0
     m_ResizingWaitingTime: 1
     m_ResizingWaitingFrames: 2
-    m_ShowDestination: 0
-    m_ShowName: 0
+    m_ShowDestination: 1
+    m_ShowName: 1
     m_ShowCaptureMode: 1
-    m_ShowResolutions: 0
+    m_ShowResolutions: 1
     m_ShowCameras: 1
     m_ShowCanvas: 1
     m_ShowComposition: 1
@@ -671,9 +671,9 @@ MonoBehaviour:
     m_ShowCapture: 1
     m_ShowHotkeys: 1
     m_ShowGallery: 1
-    m_ShowUtils: 0
-    m_ShowUsage: 0
-    m_ShowDelay: 0
+    m_ShowUtils: 1
+    m_ShowUsage: 1
+    m_ShowDelay: 1
   m_ScreenPPI: 109
   m_ZoomScrollSpeed: 0.01
   m_MarginHorizontal: 10
@@ -694,9 +694,9 @@ MonoBehaviour:
     type: 3}
   m_DefaultDeviceCanvas: {fileID: 22333258, guid: 1c3e759c6432d0d45bbb466445ec03c5,
     type: 3}
-  m_TransparentDeviceBackground: 1
+  m_TransparentDeviceBackground: 0
   m_DrawSafeArea: 1
   m_SafeAreaCanvas: {fileID: 223366713027128130, guid: de52309f8dae51e4babb47a313c72eef,
     type: 3}
   m_ShowGallery: 1
-  m_ExpandDevices: 1
+  m_ExpandDevices: 0

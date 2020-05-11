@@ -27,17 +27,17 @@ public class CreateLevel : MonoBehaviour
     {
         endPosition = initialLevelPiece.Find("EndPosition").transform.position;
         screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
-        Debug.Log(screenBounds);
+        //Debug.Log(screenBounds);
         //Transform startPiece = Instantiate(finalLevelPiece, endPosition + new Vector3(TILE_WIDTH_HALF, TILE_HEIGHT_HALF, 0f), Quaternion.identity);
         //startPiece.SetParent(this.transform);
         SpawnLevelPiece();
         firstLevelPiece = this.transform.GetChild(0);
-        Debug.Log(firstLevelPiece.GetChild(firstLevelPiece.childCount - 1));
+        //Debug.Log(firstLevelPiece.GetChild(firstLevelPiece.childCount - 1));
     }
 
     private void Update()
     {
-        Debug.Log(Vector3.Distance(firstLevelPiece.GetChild(firstLevelPiece.childCount - 1).position, player.transform.position));
+        //Debug.Log(Vector3.Distance(firstLevelPiece.GetChild(firstLevelPiece.childCount - 1).position, player.transform.position));
         //Spawn a level piece when the player is a certain distance away
         if (Vector3.Distance(player.transform.position, endPosition) <= DISTANCE_TO_SPAWN_NEXT_LEVEL_OBJECT)
         {
@@ -45,7 +45,7 @@ public class CreateLevel : MonoBehaviour
         }
         if (Vector3.Distance(firstLevelPiece.GetChild(firstLevelPiece.childCount - 1).position, player.transform.position) > 25) //TODO remove magic number
         {
-            Debug.Log(firstLevelPiece.name + " is off screen");
+            //Debug.Log(firstLevelPiece.name + " is off screen");
             DespawnLevelPiece(firstLevelPiece);
         }       
     }
@@ -55,7 +55,7 @@ public class CreateLevel : MonoBehaviour
         Transform nextLevelPiece = SpawnLevelPiece(endPosition);
         nextLevelPiece.SetParent(this.transform);
         endPosition = nextLevelPiece.Find("EndPosition").position;
-        Debug.Log("Current EndPosition is: " + nextLevelPiece.name + " " + nextLevelPiece.Find("EndPosition").name);
+        //Debug.Log("Current EndPosition is: " + nextLevelPiece.name + " " + nextLevelPiece.Find("EndPosition").name);
     }
 
     private Transform SpawnLevelPiece(Vector3 spawnPoint)
@@ -67,7 +67,7 @@ public class CreateLevel : MonoBehaviour
     private void DespawnLevelPiece(Transform levelPiece)
     {
         firstLevelPiece = this.transform.GetChild(1);
-        Debug.Log("Destroying " + levelPiece.name);
+        //Debug.Log("Destroying " + levelPiece.name);
         Destroy(levelPiece.gameObject);
     }
 
